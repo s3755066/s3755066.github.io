@@ -13,7 +13,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
-html, body {background: #e4e8f5;font-family: 'Lato', helvetica, arial, sans-serif;font-size: 16px;color: #50AAA9;}
+html, body {background: #fcf7ff;font-family: 'Lato', helvetica, arial, sans-serif;font-size: 16px;color: #035c90;}
 
 .clear {clear: both;}
 
@@ -26,7 +26,7 @@ p {
 
 #cv {
 	width: 90%;
-	max-width: 950px;
+	max-width: 989px;
 	background: #ffffff;
 	margin: 30px auto;
 }
@@ -52,6 +52,7 @@ p {
 
 #mainArea {
 	padding: 0 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #headshot {
@@ -63,8 +64,6 @@ p {
 #headshot img {
 	width: 100%;
 	height: auto;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
 }
 
 #name {
@@ -82,7 +81,7 @@ p {
 }
 
 #contactDetails ul li {
-	margin-bottom: 3px;
+	margin-top: 30px;
 	color: #0B132B;
 }
 
@@ -128,7 +127,8 @@ section:last-child {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
-	color: #bfc5da;
+	color: #035c90;
+	margin-top: 150px;
 }
 
 .sectionTitle img {
